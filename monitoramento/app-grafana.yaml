@@ -12,7 +12,7 @@ spec:
     helm:
       parameters:
         - name: service.type
-          value: "LoadBalancer"
+          value: "ClusterIP"
       releaseName: grafana
       namespace: monitoramento
   destination:
